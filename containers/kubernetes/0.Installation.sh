@@ -1,3 +1,4 @@
+#!/bin/bash
 #0 - Disable swap, swapoff then edit your fstab removing any entry for swap partitions
 swapoff -a
 
