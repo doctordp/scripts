@@ -29,5 +29,4 @@ sudo iptables -A INPUT -p esp -j ACCEPT
 sudo iptables -A OUTPUT -p esp -j ACCEPT
 
 cp /usr/lib/systemd/network/99-default.link /etc/systemd/network
-
 echo "TransmitChecksumOffload=false" >> /etc/systemd/network/99-default.link
